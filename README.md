@@ -49,3 +49,14 @@ Custom DNS: 8.8.8.8
 * To configure  the wifi 
 
 Network -> Wifi -> Set your <ssid> and Wireless security, attach it to the network interface which have internet lan, the enable the wifi
+  
+## wifi pass
+
+```bash
+http://blog.th0ma7.com/pages/Router-Base-Config
+
+wifi pass:
+
+ssh <ip>
+uci get wireless.@wifi-iface[0].key
+```
